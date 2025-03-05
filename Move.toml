@@ -1,0 +1,15 @@
+[package]
+name = "AptosAI_LawGuard"
+version = "1.0.0"
+authors = []
+
+[addresses]
+AptosAI = "0x82d32ba2dd39a66c8e860773959ccd93a4eb4dc013ba64c0079128fe886efee2"
+AptosAI_LawGuard = "0x82d32ba2dd39a66c8e860773959ccd93a4eb4dc013ba64c0079128fe886efee2"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]

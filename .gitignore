@@ -1,0 +1,15 @@
+# Node.js dependencies
+frontend/node_modules/
+frontend/package-lock.json
+
+# Python virtual environment and caches
+venv/
+scripts/__pycache__/
+
+# Aptos build and config files
+build/
+.aptos/config.yaml
+
+# Miscellaneous
+*.log
+*.DS_Store
